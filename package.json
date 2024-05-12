@@ -8,10 +8,10 @@
     "css:sort": "postcss style.css --use css-declaration-sorter --no-map --replace"
   },
   "dependencies": {
-    "live-server": "1.2.1"
+    "live-server": "^1.2.2"
   },
   "engines": {
-    "npm": ">5"
+    "npm": ">=7"
   },
   "devDependencies": {
     "css-declaration-sorter": "^7.2.0",
