@@ -4,12 +4,17 @@
   "main": "index.js",
   "author": "Joshua Comeau",
   "scripts": {
-    "start": "live-server --port=9000 --host=localhost ."
+    "start": "live-server --port=9000 --host=localhost .",
+    "css:sort": "postcss style.css --use css-declaration-sorter --no-map --replace"
   },
   "dependencies": {
     "live-server": "1.2.1"
   },
   "engines": {
     "npm": ">5"
+  },
+  "devDependencies": {
+    "css-declaration-sorter": "^7.2.0",
+    "postcss-cli": "^11.0.0"
   }
 }

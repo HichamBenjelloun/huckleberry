@@ -24,17 +24,17 @@ p {
 }
 
 .max-width-wrapper {
-  width: 1024px;
-  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
+  max-width: 100%;
+  width: 1024px;
 }
 
 .intro-chunk {
   margin-top: 96px;
+  max-width: 100%;
   padding-left: 32px;
   width: 448px;
-  max-width: 100%;
 }
 
 .intro-chunk .title {
@@ -46,10 +46,10 @@ p {
 }
 
 main {
-  margin-top: 64px;
-  height: 100%;
   background-color: hsl(0deg, 0%, 40%);
   border-top: 8px solid hsl(0deg, 0%, 60%);
+  height: 100%;
+  margin-top: 64px;
 }
 
 main section {
@@ -57,21 +57,21 @@ main section {
 }
 
 .card {
-  padding-top: 8px;
-  width: 820px;
-  max-width: 100%;
   background-color: white;
   border-bottom: 8px solid hsl(0deg, 0%, 60%);
+  max-width: 100%;
+  padding-top: 8px;
+  width: 820px;
 }
 
 .card .indented-heading {
-  margin-top: 0;
-  margin-left: -8px;
-  padding: 16px 32px;
-  width: fit-content;
-  max-width: calc(100% - 16px);
   background-color: hsl(45deg, 100%, 50%);
   border-bottom: 8px solid hsl(45deg, 100%, 40%);
+  margin-left: -8px;
+  margin-top: 0;
+  max-width: calc(100% - 16px);
+  padding: 16px 32px;
+  width: fit-content;
 }
 
 .card p {
